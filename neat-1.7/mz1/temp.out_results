@@ -1,0 +1,224 @@
+ NEAT (nebular empirical analysis tool)
+ ======================================
+
+ Analysis of file /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out
+ Command line: ./neat -i /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out
+
+
+Extinction
+==========
+
+ c(Hb)                                  0.409
+
+Diagnostics
+===========
+
+Low ionisation densities
+-----------
+
+ [OII] density                      --
+ Ratio                              --
+ [SII] density                          432.8
+ Ratio                                  0.968
+ Low ionisation density                 432.8
+
+Low ionisation temperatures
+-----------
+
+ [OII] temperature                  --
+ Ratio                              --
+ [SII] temperature                  --
+ Ratio                              --
+ [NII] temperature                    10118.1
+ Ratio                                 88.128
+ [OI] temperature                   --
+ Ratio                              --
+ [CI] temperature                   --
+ Ratio                              --
+ Low ionisation temperature           10118.1
+
+Medium ionisation densities
+-----------
+
+ [ClIII] density                    --
+ Ratio                              --
+ [ArIV] density                     --
+ Ratio                              --
+ [CIII] density                     --
+ Ratio                              --
+ [OIII] IR density                  --
+ Ratio                              --
+ [SIII] IR density                  --
+ Ratio                              --
+ [ArIII] IR density                 --
+ Ratio                              --
+ [NeIII] IR density                 --
+ Ratio                              --
+ Medium ionisation density              432.8
+
+Medium ionisation temperatures
+-----------
+
+ [OIII] temperature                 --
+ Ratio                              --
+ [OIII] IR temperature              --
+ Ratio                              --
+ [OIII] UV temperature              --
+ Ratio                              --
+ [NeIII] temperature                --
+ Ratio                              --
+ [NeIII] IR temperature             --
+ Ratio                              --
+ [ArIII] temperature                --
+ Ratio                              --
+ [SIII] temperature                 --
+ Ratio                              --
+ Medium ionisation temperature        10118.1
+
+High ionisation densities
+-----------
+
+ [NeIV] density                     --
+ Ratio                              --
+ High ionisation density                432.8
+
+High ionisation temperatures
+-----------
+
+ [ArV] temperature                  --
+ Ratio                              --
+ [NeV] temperature                  --
+ Ratio                              --
+ High temperature                     10118.1
+
+Recombination line diagnostics
+-----------
+
+ Balmer jump temperature            --
+ Balmer decrement density           --
+ He I temperature (5876/4471)       --
+ 5876/4471 ratio                        2.463
+ He temperature (6678/4471)           17144.6
+ 6678/4471 ratio                        0.648
+ OII temperature                    --
+ OII density                        --
+
+Recombination contribution to CELs (%)
+-----------
+
+ NII 5754 assuming N2+ from CELs    --
+ NII 5754 assuming N2+ from RLs     --
+ OII 7320,30 assuming O2+ from CELs --
+ OII 7320,30 assuming O2+ from RLs  --
+ OIII 4363 assuming O3+ from CELs   --
+ OIII 4363 assuming O3+ from RLs    --
+
+CEL abundances
+==============
+
+ C0/H                               --
+ C+/H                               --
+ C2+/H                              --
+ C3+/H                              --
+ icf(C)                                  1.000E+00
+ C/H                                --
+ N+/H                                    6.656E-05
+ N2+/H                              --
+ N3+/H                              --
+ N4+/H                              --
+ icf(N)                             --
+ N/H                                --
+ O0/H                               --
+ O+/H                               --
+ O2+/H                                   2.095E-04
+ O3+/H                              --
+ icf(O)                             --
+ O/H                                --
+ Ne+/H                              --
+ Ne2+/H                             --
+ Ne3+/H                             --
+ Ne4+/H                             --
+ icf(Ne)                            --
+ Ne/H                               --
+ Ar2+/H                             --
+ Ar3+/H                             --
+ Ar4+/H                             --
+ icf(Ar)                            --
+ Ar/H                               --
+ S+/H                                    1.958E-06
+ S2+/H                                   4.771E-06
+ icf(S)                             --
+ S/H                                --
+ Cl2+/H                             --
+ icf(Cl)                            --
+ Cl/H                               --
+ He+/H                                   1.290E-01
+ He2+/H                                  1.355E-02
+
+ORL abundances
+==============
+
+ He/H                                    1.426E-01
+
+
+ C2+/H                              --
+ C3+/H                              --
+ icf(C)                                  1.000E+00
+ C/H                                --
+
+
+ N2+/H (V3)                         --
+ N2+/H (V5)                         --
+ N2+/H (V8)                         --
+ N2+/H (V12)                        --
+ N2+/H (V20)                        --
+ N2+/H (V28)                        --
+ N2+/H (3d-4f)                      --
+ N2+/H                              --
+ N3+/H                              --
+ icf(N)                                  1.000E+00
+ N/H                                --
+
+
+ O2+/H (V1)                         --
+ O2+/H (V2)                         --
+ O2+/H (V5)                         --
+ O2+/H (V10)                        --
+ O2+/H (V11)                        --
+ O2+/H (V12)                        --
+ O2+/H (V19)                        --
+ O2+/H (V20)                        --
+ O2+/H (V25)                        --
+ O2+/H (V28)                        --
+ O2+/H (V33)                        --
+ O2+/H (3d-4f)                      --
+ O2+/H                              --
+ icf(O)                                  1.000E+00
+ O/H                                --
+
+
+ Ne2+/H                             --
+ icf(Ne)                                 1.000E+00
+ Ne/H                               --
+
+Strong line abundances
+======================
+
+ O/H (R23 upper)                    --
+ O/H (R23 lower)                    --
+ O/H (N2)                                9.713E+00
+ O/H (O3N2)                              8.525E+00
+ O/H (Ar3O3)                        --
+ O/H (S3O3)                         --
+
+Abundance discrepancy factors
+=============================
+
+ adf (O2+/H)                        --
+ adf (O/H)                          --
+ adf (N2+/H)                        --
+ adf (N/H)                          --
+ adf (C2+/H)                        --
+ adf (C/H)                          --
+ adf (Ne2+/H)                       --
+ adf (Ne/H)                         --
