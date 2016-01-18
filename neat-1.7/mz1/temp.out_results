@@ -8,7 +8,7 @@
 Extinction
 ==========
 
- c(Hb)                                  0.409
+ c(Hb)                              --
 
 Diagnostics
 ===========
@@ -18,9 +18,9 @@ Low ionisation densities
 
  [OII] density                      --
  Ratio                              --
- [SII] density                          432.8
- Ratio                                  0.968
- Low ionisation density                 432.8
+ [SII] density                      --
+ Ratio                              --
+ Low ionisation density                1000.0
 
 Low ionisation temperatures
 -----------
@@ -29,13 +29,13 @@ Low ionisation temperatures
  Ratio                              --
  [SII] temperature                  --
  Ratio                              --
- [NII] temperature                    10118.1
- Ratio                                 88.128
+ [NII] temperature                  --
+ Ratio                              --
  [OI] temperature                   --
  Ratio                              --
  [CI] temperature                   --
  Ratio                              --
- Low ionisation temperature           10118.1
+ Low ionisation temperature           10000.0
 
 Medium ionisation densities
 -----------
@@ -54,7 +54,7 @@ Medium ionisation densities
  Ratio                              --
  [NeIII] IR density                 --
  Ratio                              --
- Medium ionisation density              432.8
+ Medium ionisation density             1000.0
 
 Medium ionisation temperatures
 -----------
@@ -73,14 +73,14 @@ Medium ionisation temperatures
  Ratio                              --
  [SIII] temperature                 --
  Ratio                              --
- Medium ionisation temperature        10118.1
+ Medium ionisation temperature        10000.0
 
 High ionisation densities
 -----------
 
  [NeIV] density                     --
  Ratio                              --
- High ionisation density                432.8
+ High ionisation density               1000.0
 
 High ionisation temperatures
 -----------
@@ -89,7 +89,7 @@ High ionisation temperatures
  Ratio                              --
  [NeV] temperature                  --
  Ratio                              --
- High temperature                     10118.1
+ High temperature                     10000.0
 
 Recombination line diagnostics
 -----------
@@ -97,9 +97,9 @@ Recombination line diagnostics
  Balmer jump temperature            --
  Balmer decrement density           --
  He I temperature (5876/4471)       --
- 5876/4471 ratio                        2.463
- He temperature (6678/4471)           17144.6
- 6678/4471 ratio                        0.648
+ 5876/4471 ratio                    --
+ He temperature (6678/4471)         --
+ 6678/4471 ratio                    --
  OII temperature                    --
  OII density                        --
 
@@ -122,7 +122,7 @@ CEL abundances
  C3+/H                              --
  icf(C)                                  1.000E+00
  C/H                                --
- N+/H                                    6.656E-05
+ N+/H                                    5.867E-05
  N2+/H                              --
  N3+/H                              --
  N4+/H                              --
@@ -130,7 +130,7 @@ CEL abundances
  N/H                                --
  O0/H                               --
  O+/H                               --
- O2+/H                                   2.095E-04
+ O2+/H                                   3.379E-04
  O3+/H                              --
  icf(O)                             --
  O/H                                --
@@ -145,20 +145,20 @@ CEL abundances
  Ar4+/H                             --
  icf(Ar)                            --
  Ar/H                               --
- S+/H                                    1.958E-06
- S2+/H                                   4.771E-06
+ S+/H                                    4.328E-06
+ S2+/H                                   3.337E-04
  icf(S)                             --
  S/H                                --
  Cl2+/H                             --
  icf(Cl)                            --
  Cl/H                               --
- He+/H                                   1.290E-01
- He2+/H                                  1.355E-02
+ He+/H                                   7.580E+00
+ He2+/H                             --
 
 ORL abundances
 ==============
 
- He/H                                    1.426E-01
+ He/H                                    7.580E+00
 
 
  C2+/H                              --
@@ -206,8 +206,8 @@ Strong line abundances
 
  O/H (R23 upper)                    --
  O/H (R23 lower)                    --
- O/H (N2)                                9.713E+00
- O/H (O3N2)                              8.525E+00
+ O/H (N2)                                9.928E+00
+ O/H (O3N2)                              8.578E+00
  O/H (Ar3O3)                        --
  O/H (S3O3)                         --
 

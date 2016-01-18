@@ -1,25 +1,27 @@
  NEAT, the Nebular Empirical Analysis Tool
  -----------------------------------------
 
- 16:25:28  : starting code
- 16:25:28  : command line: ./neat -i /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out
+ 21:01:06  : starting code
+ 21:01:06  : command line: ./neat -i /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out
 
- 16:25:28  : line list file /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out read successfully ( 18 lines)
+ 21:01:06  : line list file /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out read successfully ( 18 lines)
+ 21:01:06  : warning: negative line fluxes set to zero
+ 21:01:06  : warning: negative flux uncertainties converted to positive
 
- 16:25:28  : using Howarth (1983) galactic extinction law
- 16:25:28  : using Smits (1996) He I emissivities
- 16:25:28  : using Kingsburgh & Barlow (1994) ICF
+ 21:01:06  : using Howarth (1983) galactic extinction law
+ 21:01:06  : using Smits (1996) He I emissivities
+ 21:01:06  : using Kingsburgh & Barlow (1994) ICF
 
- 16:25:28  : reading atomic data
- 16:25:28  : Writing line list
- 16:25:28  : Linelist written to files:
+ 21:01:06  : reading atomic data
+ 21:01:06  : Writing line list
+ 21:01:06  : Linelist written to files:
                /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_linelist
                /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_linelist.tex
 
- 16:25:28  : Writing summary files
- 16:25:28  : Results written to files:
+ 21:01:06  : Writing summary files
+ 21:01:06  : Results written to files:
                /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_results
                /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_results.tex
 
- 16:25:28  : all done
+ 21:01:06  : all done
 
