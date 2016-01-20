@@ -49,6 +49,10 @@ res_data = np.ndarray(shape=(147,scidata.shape[1],scidata.shape[2]), \
                       dtype=float)
 
 ##################################
+# Starting here the loop to share in nodes
+input = range(scidata.shape[1])
+def run_neat(input):
+##################################
 # Loop through each pixel in data cube
 
 for xpix in range(scidata.shape[1]):

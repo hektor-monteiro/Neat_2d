@@ -8,7 +8,7 @@
 Extinction
 ==========
 
- c(Hb)                              --
+ c(Hb)                                  0.479
 
 Diagnostics
 ===========
@@ -97,9 +97,9 @@ Recombination line diagnostics
  Balmer jump temperature            --
  Balmer decrement density           --
  He I temperature (5876/4471)       --
- 5876/4471 ratio                    --
+ 5876/4471 ratio                        0.445
  He temperature (6678/4471)         --
- 6678/4471 ratio                    --
+ 6678/4471 ratio                        0.191
  OII temperature                    --
  OII density                        --
 
@@ -122,15 +122,15 @@ CEL abundances
  C3+/H                              --
  icf(C)                                  1.000E+00
  C/H                                --
- N+/H                                    5.867E-05
+ N+/H                                    8.480E-05
  N2+/H                              --
  N3+/H                              --
  N4+/H                              --
  icf(N)                             --
  N/H                                --
- O0/H                               --
+ O0/H                                    1.552E-05
  O+/H                               --
- O2+/H                                   3.379E-04
+ O2+/H                                   4.233E-04
  O3+/H                              --
  icf(O)                             --
  O/H                                --
@@ -145,20 +145,20 @@ CEL abundances
  Ar4+/H                             --
  icf(Ar)                            --
  Ar/H                               --
- S+/H                                    4.328E-06
- S2+/H                                   3.337E-04
+ S+/H                                    1.269E-06
+ S2+/H                                   5.581E-05
  icf(S)                             --
  S/H                                --
  Cl2+/H                             --
  icf(Cl)                            --
  Cl/H                               --
- He+/H                                   7.580E+00
+ He+/H                                   1.120E+00
  He2+/H                             --
 
 ORL abundances
 ==============
 
- He/H                                    7.580E+00
+ He/H                                    1.120E+00
 
 
  C2+/H                              --
@@ -206,8 +206,8 @@ Strong line abundances
 
  O/H (R23 upper)                    --
  O/H (R23 lower)                    --
- O/H (N2)                                9.928E+00
- O/H (O3N2)                              8.578E+00
+ O/H (N2)                                9.846E+00
+ O/H (O3N2)                              8.539E+00
  O/H (Ar3O3)                        --
  O/H (S3O3)                         --
 

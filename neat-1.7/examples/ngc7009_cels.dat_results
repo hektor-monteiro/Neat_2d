@@ -1,14 +1,14 @@
  NEAT (nebular empirical analysis tool)
  ======================================
 
- Analysis of file mz1/mz1-total-fluxes.dat
- Command line: ./neat -i mz1/mz1-total-fluxes.dat -id
+ Analysis of file examples/ngc7009_cels.dat
+ Command line: ./neat -i examples/ngc7009_cels.dat
 
 
 Extinction
 ==========
 
- c(Hb)                                  0.732
+ c(Hb)                                  0.069
 
 Diagnostics
 ===========
@@ -16,34 +16,34 @@ Diagnostics
 Low ionisation densities
 -----------
 
- [OII] density                      --
- Ratio                              --
- [SII] density                          366.8
- Ratio                                  0.934
- Low ionisation density                 366.8
+ [OII] density                         5203.5
+ Ratio                                  0.503
+ [SII] density                         3892.7
+ Ratio                                  1.659
+ Low ionisation density                4548.1
 
 Low ionisation temperatures
 -----------
 
  [OII] temperature                  --
  Ratio                              --
- [SII] temperature                  --
+ [SII] temperature                     9647.2
+ Ratio                                  4.363
+ [NII] temperature                  --
  Ratio                              --
- [NII] temperature                     9628.9
- Ratio                                 99.911
- [OI] temperature                     35000.0
- Ratio                                  0.558
+ [OI] temperature                     26383.9
+ Ratio                                 21.230
  [CI] temperature                   --
  Ratio                              --
- Low ionisation temperature            9628.7
+ Low ionisation temperature           18015.5
 
 Medium ionisation densities
 -----------
 
- [ClIII] density                    --
- Ratio                              --
- [ArIV] density                     --
- Ratio                              --
+ [ClIII] density                       3359.2
+ Ratio                                  1.206
+ [ArIV] density                        4614.1
+ Ratio                                  1.131
  [CIII] density                     --
  Ratio                              --
  [OIII] IR density                  --
@@ -54,13 +54,13 @@ Medium ionisation densities
  Ratio                              --
  [NeIII] IR density                 --
  Ratio                              --
- Medium ionisation density              366.8
+ Medium ionisation density             3986.7
 
 Medium ionisation temperatures
 -----------
 
- [OIII] temperature                 --
- Ratio                              --
+ [OIII] temperature                    9813.3
+ Ratio                                220.236
  [OIII] IR temperature              --
  Ratio                              --
  [OIII] UV temperature              --
@@ -69,18 +69,18 @@ Medium ionisation temperatures
  Ratio                              --
  [NeIII] IR temperature             --
  Ratio                              --
- [ArIII] temperature                --
- Ratio                              --
- [SIII] temperature                 --
- Ratio                              --
- Medium ionisation temperature         9628.7
+ [ArIII] temperature                   9383.5
+ Ratio                                196.013
+ [SIII] temperature                   10013.0
+ Ratio                                 62.400
+ Medium ionisation temperature         9719.0
 
 High ionisation densities
 -----------
 
  [NeIV] density                     --
  Ratio                              --
- High ionisation density                366.8
+ High ionisation density               3986.7
 
 High ionisation temperatures
 -----------
@@ -89,17 +89,17 @@ High ionisation temperatures
  Ratio                              --
  [NeV] temperature                  --
  Ratio                              --
- High temperature                      9628.7
+ High temperature                      9719.0
 
 Recombination line diagnostics
 -----------
 
  Balmer jump temperature            --
- Balmer decrement density           --
+ Balmer decrement density               100.0
  He I temperature (5876/4471)       --
- 5876/4471 ratio                        2.730
- He temperature (6678/4471)           15752.2
- 6678/4471 ratio                        0.675
+ 5876/4471 ratio                    --
+ He temperature (6678/4471)         --
+ 6678/4471 ratio                    --
  OII temperature                    --
  OII density                        --
 
@@ -110,55 +110,55 @@ Recombination contribution to CELs (%)
  NII 5754 assuming N2+ from RLs     --
  OII 7320,30 assuming O2+ from CELs --
  OII 7320,30 assuming O2+ from RLs  --
- OIII 4363 assuming O3+ from CELs   --
+ OIII 4363 assuming O3+ from CELs       0.69
  OIII 4363 assuming O3+ from RLs    --
 
 CEL abundances
 ==============
 
- C0/H                               --
+ C0/H                                    3.494E-09
  C+/H                               --
  C2+/H                              --
  C3+/H                              --
  icf(C)                                  1.000E+00
  C/H                                --
- N+/H                                    1.054E-04
+ N+/H                                    9.105E-07
  N2+/H                              --
  N3+/H                              --
  N4+/H                              --
- icf(N)                             --
- N/H                                --
- O0/H                                    5.212E-05
- O+/H                               --
- O2+/H                                   2.816E-04
+ icf(N)                                  3.054E+02
+ N/H                                     2.780E-04
+ O0/H                                    1.949E-07
+ O+/H                                    1.590E-06
+ O2+/H                                   4.436E-04
  O3+/H                              --
- icf(O)                             --
- O/H                                --
+ icf(O)                                  1.091E+00
+ O/H                                     4.855E-04
  Ne+/H                              --
  Ne2+/H                             --
  Ne3+/H                             --
  Ne4+/H                             --
  icf(Ne)                            --
  Ne/H                               --
- Ar2+/H                             --
- Ar3+/H                             --
+ Ar2+/H                                  1.576E-06
+ Ar3+/H                                  1.246E-06
  Ar4+/H                             --
- icf(Ar)                            --
- Ar/H                               --
- S+/H                                    2.949E-06
- S2+/H                              --
- icf(S)                             --
- S/H                                --
- Cl2+/H                             --
- icf(Cl)                            --
- Cl/H                               --
- He+/H                                   1.286E-01
- He2+/H                                  1.128E-02
+ icf(Ar)                                 1.000E+00
+ Ar/H                                    2.822E-06
+ S+/H                                    5.753E-08
+ S2+/H                                   3.469E-06
+ icf(S)                                  4.674E+00
+ S/H                                     1.649E-05
+ Cl2+/H                                  7.806E-08
+ icf(Cl)                                 4.752E+00
+ Cl/H                                    3.709E-07
+ He+/H                                   9.041E-02
+ He2+/H                                  1.255E-02
 
 ORL abundances
 ==============
 
- He/H                                    1.399E-01
+ He/H                                    1.030E-01
 
 
  C2+/H                              --
@@ -206,10 +206,10 @@ Strong line abundances
 
  O/H (R23 upper)                    --
  O/H (R23 lower)                    --
- O/H (N2)                                1.002E+01
- O/H (O3N2)                              8.552E+00
- O/H (Ar3O3)                        --
- O/H (S3O3)                         --
+ O/H (N2)                                8.933E+00
+ O/H (O3N2)                              7.994E+00
+ O/H (Ar3O3)                             8.915E+00
+ O/H (S3O3)                              9.417E+00
 
 Abundance discrepancy factors
 =============================
