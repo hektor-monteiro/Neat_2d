@@ -1,27 +1,27 @@
  NEAT, the Nebular Empirical Analysis Tool
  -----------------------------------------
 
- 15:32:49  : starting code
- 15:32:49  : command line: ./neat -i /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out
+ 18:39:53  : starting code
+ 18:39:53  : command line: ./neat -i /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out
 
- 15:32:49  : line list file /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out read successfully ( 18 lines)
- 15:32:49  : warning: negative line fluxes set to zero
- 15:32:49  : warning: negative flux uncertainties converted to positive
+ 18:39:53  : line list file /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out read successfully ( 18 lines)
+ 18:39:53  : warning: negative line fluxes set to zero
+ 18:39:53  : warning: negative flux uncertainties converted to positive
 
- 15:32:49  : using Howarth (1983) galactic extinction law
- 15:32:49  : using Smits (1996) He I emissivities
- 15:32:49  : using Kingsburgh & Barlow (1994) ICF
+ 18:39:53  : using Howarth (1983) galactic extinction law
+ 18:39:53  : using Smits (1996) He I emissivities
+ 18:39:53  : using Kingsburgh & Barlow (1994) ICF
 
- 15:32:49  : reading atomic data
- 15:32:49  : Writing line list
- 15:32:49  : Linelist written to files:
-               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_linelist
-               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_linelist.tex
+ 18:39:53  : reading atomic data
+ 18:39:53  : Writing line list
+ 18:39:53  : Linelist written to files:
+               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out_linelist
+               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out_linelist.tex
 
- 15:32:49  : Writing summary files
- 15:32:49  : Results written to files:
-               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_results
-               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp.out_results.tex
+ 18:39:53  : Writing summary files
+ 18:39:53  : Results written to files:
+               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out_results
+               /home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/mz1/temp6939.out_results.tex
 
- 15:32:49  : all done
+ 18:39:53  : all done
 

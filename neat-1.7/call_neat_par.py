@@ -5,6 +5,9 @@ from astropy.io import fits
 import time
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
+import sys
+from joblib import Parallel, delayed
+
 
 now = time.time() # used to time the code
 
@@ -21,7 +24,8 @@ hdulist = fits.open(obj_dir+fits_file)
 scidata = hdulist[0].data
 
 scidata = scidata[:,110:180,:] # use only a portion of the data cube
-#scidata = scidata[:,140:141,:] # use only a portion of the data cube
+#scidata = scidata[:,140:142,:] # use only a portion of the data cube
+#scidata = scidata[:,140:150,:] # use only a portion of the data cube
 
 fits_file = 'mz1-emiss-map-clambda.fits'
 hdulist = fits.open(obj_dir+fits_file)
@@ -49,13 +53,14 @@ res_data = np.ndarray(shape=(147,scidata.shape[1],scidata.shape[2]), \
                       dtype=float)
 
 ##################################
-# Starting here the loop to share in nodes
-input = range(scidata.shape[1])
-def run_neat(input):
-##################################
 # Loop through each pixel in data cube
 
-for xpix in range(scidata.shape[1]):
+#for xpix in range(scidata.shape[1]): used in serial execution
+
+def run_neat(xpix,res_data):
+    sys.stdout.write("progress: %d%% \r" % (float(xpix)/scidata.shape[1]*100.))
+    sys.stdout.flush()
+
     for ypix in range( scidata.shape[2]):    
 
 ##################################
@@ -65,14 +70,14 @@ for xpix in range(scidata.shape[1]):
             #print(clambda[i],scidata[i,xpix,ypix]/scidata[2,xpix,ypix])
             fl = scidata[:,xpix,ypix]/scidata[2,xpix,ypix]
             aux=np.array([clambda,fl,fl*0.02])
-            np.savetxt(obj_dir+'temp.out', aux.transpose(), \
+            np.savetxt(obj_dir+'temp'+str(xpix)+str(ypix)+'.out', aux.transpose(), \
                        fmt='%f', newline='\n')   # use exponential notation
 
 ##################################
 # Run Neat on the generated input file
 
             neat_dir = '/home/hmonteiro/Dropbox/work/devel/Neat_2d/neat-1.7/'
-            input_file = obj_dir+'temp.out'
+            input_file = obj_dir+'temp'+str(xpix)+str(ypix)+'.out'
             flags = " "
 
             call('./neat -i'+' '+input_file+' '+flags+'>trash.out', shell=True)
@@ -90,10 +95,10 @@ for xpix in range(scidata.shape[1]):
 ###################################            
 # loop through lines to get the calculated data
             cont = 0
-            for i in range(0,nlines-1):
-                aux = splitedlines[i].split()
+            for j in range(0,nlines-1):
+                aux = splitedlines[j].split()
 
-                if i in res_ind:
+                if j in res_ind:
 
                     res_descript.append(' '.join(aux[0:len(aux)-1]))
                     if (aux[len(aux)-1] != '--'):
@@ -104,8 +109,16 @@ for xpix in range(scidata.shape[1]):
 #                        print(res_data[cont,xpix,ypix])
                     cont = cont + 1
 
-    sys.stdout.write("progress: %d%% \r" % (float(xpix)/scidata.shape[1]*100.))
-    sys.stdout.flush()
+        call('rm '+input_file+'*', shell=True)
+        #print(res_data[0,xpix,ypix],xpix,ypix)
+    return 0
+
+########################################
+# execute parallel for loop on x axis
+index = range(scidata.shape[1])
+
+aux = Parallel(n_jobs=5, backend="threading")(delayed(run_neat)(ind,res_data) for ind in index)
+
 ########################################
 # create final data cube fits file and lambda file
 
